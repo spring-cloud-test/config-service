@@ -9,4 +9,4 @@ spring:
     config:
       server:
         git:
-          uri: file:///
+          uri: file:///Users/seok/IdeaProjects/config-repository
