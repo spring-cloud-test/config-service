@@ -13,3 +13,9 @@ spring:
           uri: https://github.com/spring-cloud-test/config-repository.git
         native:
           search-locations: file://${user.home}/IdeaProjects/config-repository
+  # Messaging Service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
