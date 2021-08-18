@@ -1,0 +1,24 @@
+### 설정 파일 확인 요청
+GET http://127.0.0.1:8888/user-service/default
+
+
+### Symmetric Encryption
+POST http://127.0.0.1:8888/encrypt
+Content-Type: text/plain
+
+seok
+
+### Symmetric Encryption
+POST http://127.0.0.1:8888/encrypt
+Content-Type: text/plain
+
+1234
+
+### Synmmetric Decryption
+POST http://127.0.0.1:8888/decrypt
+Content-Type: text/plain
+
+f44f558e79b4bee0917adf6c7ad7c4a884b2813007c55ad90cdfd85d11845c4d
+
+### user-service
+GET http://127.0.0.1:8888/default
